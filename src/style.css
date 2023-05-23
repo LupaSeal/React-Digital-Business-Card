@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+}
+
+.image {
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    width: 178.06px;
+    height: 25.81px;
+    color: #FFFFFF;
+    margin-top: 21px;
+    margin-bottom: 6px;
+}
+
+.job{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    width: 178.06px;
+    height: 14.19px;
+    color: #F3BF99;
+    margin-bottom: 9px;
+}
+
+.site{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+    width: 228px;
+    height: 16px;
+    margin-bottom: 15px;
+    margin-top: 9px;
+}
+
+.container{
+    background: #23252C;
+    width: 550px;
+    height: 950px;
+    margin: 155px 65px;
+    border: 1px solid transparent;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.header{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width:317px;
+    height:500px;
+    background: #1A1B21;
+    margin: 45px 116px;
+}
+
+.email{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+    margin-right: 17px;
+    display:flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.link{
+    background: #5093E2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+    display:flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.email-icon{
+    color: #1E1F26;
+    display:flex;
+    margin-right: 4px;
+    height: 25px;
+    width: 12;
+}
+
+.link-icon{
+    color: #FFFFFF;
+    margin-right: 4px;
+    height: 25px;
+    width: 12;
+}
+
+.buttons{
+    display:flex;
+}
+
+.email-text{
+    width: 36px;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.link-text{
+    width: 57px;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.about{
+    width:317px;
+    height:140px;
+    background: #1A1B21;
+    margin: 116px;
+    margin-top:-50px;
+    color: #FFFFFF;
+}
+
+.about-text{
+    padding:15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 150%;
+    width: 242.71px;
+    height: 21px;
+}
+
+.first-p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    width: 302px;
+    height: 61px;
+    padding:15px;
+    color: #DCDCDC;
+}
+
+.interests{
+    margin-top: 45px;
+    padding:15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 150%;
+    width: 242.71px;
+    height: 21px;
+}
+
+.secound-p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    width: 302px;
+    height: 61px;
+    padding:15px;
+    color: #DCDCDC;
+}
+
+.interest{
+    width:317px;
+    height:190px;
+    background: #1A1B21;
+    margin: 116px;
+    margin-top:-120px;
+    color: #FFFFFF;
+}
+
+.footer{
+    width:317px;
+    height:64px;
+    background: #161619;
+    margin: 116px;
+    margin-top:-120px;
+    color: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.footer > svg {
+    color: #918E9B;
+    width: 30px;
+    height: 30px;
+    object-fit: contain; 
+}
